@@ -1,0 +1,47 @@
+# Ignore the virtual environment folder
+venv/
+Lib/
+Include/
+Scripts/
+main.spec
+pyvenv.cfg
+share/
+
+
+# Ignore byte-compiled and optimized files
+__pycache__/
+*.py[cod]
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pyenv
+.python-version
+
+# Editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# api keys
+api_key_QT.txt
+
